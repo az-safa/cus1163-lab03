@@ -1,0 +1,4 @@
+1. What happens to memory when fork() creates a new process? Does the child get a complete copy of the parent's memory?
+2. Why must unused pipe ends be closed? What would happen if you forgot to close them?
+3. What are zombie processes and how does wait() prevent them? What would happen to your system if zombie processes accumulated?
+4. How does the kernel track parent-child relationships? What happens if a parent process dies before its children?
